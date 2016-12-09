@@ -7,7 +7,7 @@ int value = 0;
 
 void setup() {
   Serial.begin(9600);
-	pinMode(lm35, INPUT);
+  pinMode(lm35, INPUT);
   pinMode(red, OUTPUT);
   pinMode(orange, OUTPUT);
   pinMode(green, OUTPUT);
