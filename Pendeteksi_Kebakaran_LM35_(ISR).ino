@@ -17,14 +17,14 @@ void setup() {
 
 void loop() {
   value = analogRead(lm35);
-  if (value >= 100)
+  if (value >= 75)
   {
   tone(buzz, 1000,500);
   digitalWrite(red, HIGH);
   digitalWrite(orange, LOW);
   digitalWrite(green, LOW);
   }
-  else if (value > 80)
+  else if (value > 50)
   {
   digitalWrite(red, LOW);
   digitalWrite(orange, HIGH);
